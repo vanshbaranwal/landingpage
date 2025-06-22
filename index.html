@@ -5,25 +5,63 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Product Launch Landing Page</title>
     <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- header section -->
+    <!-- header section (navbar) -->
     <header>
-        <div class="navbar">
-        <img id="logoimg" src="images/landingpagelogo.png" alt="landingpagelogo">
-        <nav>
-            <ul class="nav-links">
+        <div class="container">
+            <img id="logo-image" src="landingpagelogo.png" alt="logoimg">
+            <ul class="navitems">
                 <li>Home</li>
                 <li>Features</li>
                 <li>Pricing</li>
                 <li>Contact</li>
             </ul>
-        </nav>
         </div>
     </header>
 
     <!-- hero section -->
-     
+     <div class="herocontainer">
+        <div class="hero-wrapper">
+            <div class="herotext">
+                <h1>Launch Your Ideas With SkyPad!</h1>
+                <p>The ultimate productivity app for creators and teams</p>
+                <button class="btn">Get Started</button>
+                <button class="btn">Watch Demo</button>
+            </div>
+
+            <div class="heroimage">
+                <img class="heroimage" src="/heroimg.jpg" alt="heroimg">
+            </div>
+        </div>
+     </div>
+
+    <!-- Featuers section -->
+      <div class="cardcontainer">
+        
+        <!-- card 1 -->
+        <div class="card">
+            <i id="icon-1" class="fa-solid fa-lock"></i>    
+            <h2>Secure</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse id recusandae cupiditate similique tempora, doloribus molestiae quo nesciunt iusto ratione.</p>
+        </div>
+
+        <!-- card 2 -->
+         <div class="card">
+             <i id="icon-2" class="fa-solid fa-jet-fighter"></i>
+             <h2>Fast</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam delectus nisi repudiandae fugiat aliquid facere beatae cumque officia labore.</p>
+         </div>
+
+         <!-- card 3 -->
+          <div class="card">
+              <i id="icon-3" class="fa-solid fa-mobile-screen-button"></i>  
+              <h2>Mobile-Friendly</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum maxime alias fugiat excepturi quis similique reiciendis, ratione iusto mollitia doloribus!</p>
+          </div>
+      </div>
+    <!-- Testimonials section -->
      
 </body>
 </html>
